@@ -86,7 +86,7 @@ jobs:
           name: OpenWrt_buildinfo
           path: ./artifact/buildinfo/
 
-      - name: Deliver package
+      - name: Deliver packages
         uses: actions/upload-artifact@v2
         with:
           name: OpenWrt_package
